@@ -17,7 +17,15 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "ngx-icon-browser-lib": [
+        "dist/ngx-icon-browser-lib"
+      ],
+      "ngx-icon-browser-lib/*": [
+        "dist/ngx-icon-browser-lib/*"
+      ]
+    }
   },
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,
